@@ -1,0 +1,7 @@
+If you want to play the	game, build it like following.
+
+g++ main.cpp -c -o main.o
+g++ Table.cpp -c -o Table.o
+g++ Table.o main.o -o 15puzzle
+./15puzzle 
+
