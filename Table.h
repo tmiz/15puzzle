@@ -1,3 +1,4 @@
+// (C) 2010 tmiz.net
 #ifndef __TABLE_H
 #define __TABLE_H
 

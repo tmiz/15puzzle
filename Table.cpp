@@ -1,3 +1,4 @@
+// (C) 2010 tmiz.net
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
