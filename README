@@ -1,7 +1,67 @@
 If you want to play the	game, build it like following.
 
-g++ main.cpp -c -o main.o
-g++ Table.cpp -c -o Table.o
-g++ Table.o main.o -o 15puzzle
-./15puzzle 
+$ g++ main.cpp -c -o main.o
+$ g++ Table.cpp -c -o Table.o
+$ g++ Table.o main.o -o 15puzzle
+$ ./15puzzle 
+-------------------
+  1  2  3  4
+  5  6  8 11
+  9    10 12
+ 13 14  7 15
+Time:99  Next Number => 10
+-------------------
+  1  2  3  4
+  5  6  8 11
+  9 10    12
+ 13 14  7 15
+Time:98  Next Number => 7
+-------------------
+  1  2  3  4
+  5  6  8 11
+  9 10  7 12
+ 13 14    15
+Time:97  Next Number => 15
+-------------------
+  1  2  3  4
+  5  6  8 11
+  9 10  7 12
+ 13 14 15   
+Time:96  Next Number => 12
+-------------------
+  1  2  3  4
+  5  6  8 11
+  9 10  7   
+ 13 14 15 12
+Time:95  Next Number => 11
+-------------------
+  1  2  3  4
+  5  6  8   
+  9 10  7 11
+ 13 14 15 12
+Time:94  Next Number => 8
+-------------------
+  1  2  3  4
+  5  6     8
+  9 10  7 11
+ 13 14 15 12
+Time:93  Next Number => 7
+-------------------
+  1  2  3  4
+  5  6  7  8
+  9 10    11
+ 13 14 15 12
+Time:92  Next Number => 11
+-------------------
+  1  2  3  4
+  5  6  7  8
+  9 10 11   
+ 13 14 15 12
+Time:91  Next Number => 12
+-------------------
+  1  2  3  4
+  5  6  7  8
+  9 10 11 12
+ 13 14 15   
+Congratulations. You win the game.
 
